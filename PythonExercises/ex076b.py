@@ -20,4 +20,3 @@ for x, y in produtos:
 
 # Exibir rodapé formatado
 print('=' * 40)
-
