@@ -31,7 +31,7 @@ print('=' * 30)
 print('{:^30}'.format('PESSOAS REGISTADAS'))
 print('=' * 30)
 for p in pessoas:
-    print(f'{p[0]:<20} -> {p[1]:>5} kg')
+    print(f'{p[0]:<15} -> {p[1]:>10} kg')
 print('=' * 30)
 
 # Determina o maior e o menor peso
