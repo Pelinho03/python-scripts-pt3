@@ -14,7 +14,7 @@ def sorteia(numeros):
         num = randint(0, 10)  # Sorteia um número entre 0 e 10
         numeros.append(num)
         print(f'{num} ', end='', flush=True)
-    print()  # Pula uma linha após a impressão dos números
+    print()  # Salta uma linha após a impressão dos números
 
 
 # Função que soma os números pares
