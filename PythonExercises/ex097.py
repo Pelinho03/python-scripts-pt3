@@ -1,6 +1,9 @@
 '''
 097. Faz um programa que tenha uma função chamada escreva(), que recebe um texto qualquer como parâmetro e mostre uma mensagem com tamanho adaptável.
 '''
+from time import sleep
+
+
 def escreva(txt):
     # Calcula a dimensão da moldura, somando 4 para adicionar espaços laterais
     dim = len(txt) + 4
@@ -13,4 +16,8 @@ def escreva(txt):
 
 
 # Pede ao utilizador para inserir uma frase
+escreva('Paulo Guimarães')
+sleep(1)
+escreva('Aprender Python')
+sleep(1)
 escreva(str(input('Digita uma frase: ')).strip())

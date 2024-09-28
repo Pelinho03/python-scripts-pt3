@@ -4,6 +4,7 @@
 - B) De 10 até 0, de 2 em 2.
 - C) Uma contagem personalizada.
 '''
+from time import sleep
 def contador(inicio, fim, passo):
     # Verifica se o passo é zero ou negativo, e ajusta se necessário
     if passo == 0:
@@ -20,9 +21,11 @@ def contador(inicio, fim, passo):
     if inicio < fim:
         for i in range(inicio, fim + 1, passo):  # Contagem crescente
             print(i, '-> ', end='')
+            sleep(0.5)
     else:
         for i in range(inicio, fim - 1, passo):  # Contagem decrescente
             print(i, '-> ', end='')
+            sleep(0.5)
 
     print('FIM')
 
