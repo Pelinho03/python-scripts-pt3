@@ -2,7 +2,7 @@
 099. Faz um programa que tenha uma função chamada maior(), que recebe vários parâmetros com valores inteiros. O programa tem que analisar todos os valores e dizer qual deles é o maior.
 '''
 from time import sleep
-
+from random import randint
 
 def maior(*num):
     cont = 0
@@ -28,3 +28,4 @@ maior(2, 9, 4, 5, 7, 1)
 maior(1, 2)
 maior(6)
 maior()  # Caso não passe nenhum valor
+maior(randint(0,10),randint(0,10),randint(0,10),randint(0,10),randint(0,10),randint(0,10),randint(0,10),)
