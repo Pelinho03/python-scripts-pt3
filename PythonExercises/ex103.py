@@ -1,8 +1,6 @@
 '''
 103. Faz um programa que tenha uma função chamada ficha(), que recebe dois parâmetros opcionais: o nome de um jogador e quantos golos ele marcou. O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não tenha sido informado corretamente.
 '''
-
-
 def ficha(nome='<desconhecido>', quantGolos=0):
     """
     --> Mostra a ficha de um jogador, com nome e quantidade de golos.
